@@ -1,12 +1,13 @@
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const navItems = [
-  { label: "Главная", href: "#" },
-  { label: "Продукция", href: "#products" },
-  { label: "Статьи", href: "#articles" },
-  { label: "Вопрос-ответ", href: "#faq" },
-  { label: "Контакты", href: "#contacts" },
+  { label: "Главная", href: "/" },
+  { label: "Продукция", href: "/catalog" },
+  { label: "Статьи", href: "/articles" },
+  { label: "Вопрос-ответ", href: "/faq" },
+  { label: "Контакты", href: "/contacts" },
 ];
 
 const Header = () => {
@@ -15,19 +16,19 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
       <div className="container mx-auto px-4 flex items-center justify-between h-16 md:h-20">
-        <a href="#" className="font-display text-2xl md:text-3xl font-bold text-gradient-fire">
+        <Link to="/" className="font-display text-2xl md:text-3xl font-bold text-gradient-fire">
           Шашлыкю
-        </a>
+        </Link>
 
         <nav className="hidden md:flex items-center gap-8">
           {navItems.map((item) => (
-            <a
+            <Link
               key={item.label}
-              href={item.href}
+              to={item.href}
               className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors duration-200"
             >
               {item.label}
-            </a>
+            </Link>
           ))}
         </nav>
 
@@ -50,14 +51,14 @@ const Header = () => {
       {mobileOpen && (
         <div className="md:hidden bg-background border-b border-border px-4 pb-4">
           {navItems.map((item) => (
-            <a
+            <Link
               key={item.label}
-              href={item.href}
+              to={item.href}
               onClick={() => setMobileOpen(false)}
               className="block py-3 text-foreground hover:text-primary transition-colors border-b border-border last:border-0"
             >
               {item.label}
-            </a>
+            </Link>
           ))}
           <a
             href="tel:89287639058"
