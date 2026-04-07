@@ -51,14 +51,14 @@ const Header = () => {
       {mobileOpen && (
         <div className="md:hidden bg-background border-b border-border px-4 pb-4">
           {navItems.map((item) => (
-            <a
+            <Link
               key={item.label}
-              href={item.href}
+              to={item.href}
               onClick={() => setMobileOpen(false)}
               className="block py-3 text-foreground hover:text-primary transition-colors border-b border-border last:border-0"
             >
               {item.label}
-            </a>
+            </Link>
           ))}
           <a
             href="tel:89287639058"
