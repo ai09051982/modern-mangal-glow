@@ -22,13 +22,13 @@ const Header = () => {
 
         <nav className="hidden md:flex items-center gap-8">
           {navItems.map((item) => (
-            <a
+            <Link
               key={item.label}
-              href={item.href}
+              to={item.href}
               className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors duration-200"
             >
               {item.label}
-            </a>
+            </Link>
           ))}
         </nav>
 
