@@ -1,12 +1,13 @@
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const navItems = [
-  { label: "Главная", href: "#" },
-  { label: "Продукция", href: "#products" },
-  { label: "Статьи", href: "#articles" },
-  { label: "Вопрос-ответ", href: "#faq" },
-  { label: "Контакты", href: "#contacts" },
+  { label: "Главная", href: "/" },
+  { label: "Продукция", href: "/catalog" },
+  { label: "Статьи", href: "/articles" },
+  { label: "Вопрос-ответ", href: "/faq" },
+  { label: "Контакты", href: "/contacts" },
 ];
 
 const Header = () => {
