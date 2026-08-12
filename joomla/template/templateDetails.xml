@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="template" client="site" method="upgrade">
+    <name>mangal61</name>
+    <version>1.0.0</version>
+    <creationDate>2026-08</creationDate>
+    <author>MANGAL61</author>
+    <authorEmail>info@mangal61.ru</authorEmail>
+    <copyright>(C) 2026 MANGAL61</copyright>
+    <license>GNU GPL v2 or later</license>
+    <description>Одностраничный шаблон MANGAL61 — грили, смокеры и мангалы на заказ.</description>
+    <files>
+        <filename>index.php</filename>
+        <filename>error.php</filename>
+        <filename>component.php</filename>
+        <filename>offline.php</filename>
+        <filename>joomla.asset.json</filename>
+        <filename>templateDetails.xml</filename>
+        <folder>assets</folder>
+        <folder>html</folder>
+    </files>
+    <positions>
+        <position>topbar</position>
+        <position>banner</position>
+        <position>main</position>
+        <position>footer</position>
+    </positions>
+    <config>
+        <fields name="params">
+            <fieldset name="advanced">
+                <field name="phone" type="text" label="Телефон" default="8 (928) 763-90-58" />
+                <field name="whatsapp" type="text" label="Ссылка WhatsApp" default="https://wa.me/79287639058" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
