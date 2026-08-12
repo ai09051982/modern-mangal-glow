@@ -13,8 +13,8 @@ export default {
       },
     },
     fontFamily: {
-      display: ['Playfair Display', 'serif'],
-      body: ['Source Sans 3', 'sans-serif'],
+      display: ['Oswald', 'sans-serif'],
+      body: ['Manrope', 'sans-serif'],
     },
     extend: {
       colors: {
