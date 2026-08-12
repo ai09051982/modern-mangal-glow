@@ -1,23 +1,29 @@
-import Header from "@/components/Header";
+import SiteHeader from "@/components/SiteHeader";
 import HeroSection from "@/components/HeroSection";
-import ProductCategories from "@/components/ProductCategories";
-import AboutSection from "@/components/AboutSection";
-import ContentSections from "@/components/ContentSections";
-import CTASection from "@/components/CTASection";
-import Footer from "@/components/Footer";
+import ProductsSection from "@/components/ProductsSection";
+import AdvantagesSection from "@/components/AdvantagesSection";
+import GallerySection from "@/components/GallerySection";
+import LeadForm from "@/components/LeadForm";
+import ContactsSection from "@/components/ContactsSection";
+import SiteFooter from "@/components/SiteFooter";
 
-const Index = () => {
-  return (
-    <div className="min-h-screen bg-background font-body">
-      <Header />
+const Index = () => (
+  <div className="min-h-screen bg-background font-body">
+    <SiteHeader />
+    <main>
       <HeroSection />
-      <ProductCategories />
-      <AboutSection />
-      <ContentSections />
-      <CTASection />
-      <Footer />
-    </div>
-  );
-};
+      <ProductsSection />
+      <AdvantagesSection />
+      <section className="pb-16 md:pb-24">
+        <div className="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <GallerySection />
+          <LeadForm />
+        </div>
+      </section>
+      <ContactsSection />
+    </main>
+    <SiteFooter />
+  </div>
+);
 
 export default Index;
