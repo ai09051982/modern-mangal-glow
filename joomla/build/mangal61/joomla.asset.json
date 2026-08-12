@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "template.mangal61",
+  "version": "1.0.0",
+  "description": "MANGAL61 site template assets",
+  "license": "GPL-2.0-or-later",
+  "assets": [
+    {
+      "name": "template.mangal61.css.index-Cxudxpiv.css",
+      "type": "style",
+      "uri": "templates/mangal61/assets/index-Cxudxpiv.css"
+    },
+    {
+      "name": "template.mangal61.js.index-DfqAK-Ey.js",
+      "type": "script",
+      "uri": "templates/mangal61/assets/index-DfqAK-Ey.js",
+      "attributes": {
+        "type": "module"
+      }
+    },
+    {
+      "name": "template.mangal61",
+      "type": "preset",
+      "dependencies": [
+        "template.mangal61.css.index-Cxudxpiv.css#style",
+        "template.mangal61.js.index-DfqAK-Ey.js#script"
+      ]
+    }
+  ]
+}
