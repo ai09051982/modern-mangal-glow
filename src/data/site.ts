@@ -44,7 +44,7 @@ export const PRODUCTS = [
     title: "Индивидуальные изделия",
     slug: "Изделие на заказ",
     text: "Изготовим по вашим пожеланиям и размерам.",
-    image: "https://mangal61.ru/_files/Image/img_1497_k.jpg",
+    image: "https://mangal61.ru/_files/Image/parovoz_01_b.jpg",
     features: ["Любая форма и размер", "Выбор материалов", "Уникальный дизайн", "Чертёж и проект"],
   },
 ];
@@ -65,7 +65,7 @@ export const GALLERY = [
   "https://mangal61.ru/_files/Image/img_1491_k.jpg",
   "https://mangal61.ru/_files/Image/img_1492_k.jpg",
   "https://mangal61.ru/_files/Image/img_1494_k.jpg",
-  "https://mangal61.ru/_files/Image/img_1497_k.jpg",
+  "https://mangal61.ru/_files/Image/parovoz_01_b.jpg",
   "https://mangal61.ru/_files/Image/img_1498_k.jpg",
   "https://mangal61.ru/_files/Image/parovoz_01.jpg",
   "https://mangal61.ru/_files/Image/parovoz_02.jpg",
