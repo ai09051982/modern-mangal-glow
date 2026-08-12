@@ -65,7 +65,7 @@ export const GALLERY = [
   "https://mangal61.ru/_files/Image/img_1491_k.jpg",
   "https://mangal61.ru/_files/Image/img_1492_k.jpg",
   "https://mangal61.ru/_files/Image/img_1494_k.jpg",
-  "https://mangal61.ru/_files/Image/parovoz_01_b.jpg",
+  "https://mangal61.ru/_files/Image/parovoz_03_b.jpg",
   "https://mangal61.ru/_files/Image/img_1498_k.jpg",
   "https://mangal61.ru/_files/Image/parovoz_01.jpg",
   "https://mangal61.ru/_files/Image/parovoz_02.jpg",
