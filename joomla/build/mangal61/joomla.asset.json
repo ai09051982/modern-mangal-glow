@@ -6,14 +6,14 @@
   "license": "GPL-2.0-or-later",
   "assets": [
     {
-      "name": "template.mangal61.css.index-Cxudxpiv.css",
+      "name": "template.mangal61.css.index-CyCmMMsp.css",
       "type": "style",
-      "uri": "templates/mangal61/assets/index-Cxudxpiv.css"
+      "uri": "templates/mangal61/assets/index-CyCmMMsp.css"
     },
     {
-      "name": "template.mangal61.js.index-DfqAK-Ey.js",
+      "name": "template.mangal61.js.index-n-RaPlHE.js",
       "type": "script",
-      "uri": "templates/mangal61/assets/index-DfqAK-Ey.js",
+      "uri": "templates/mangal61/assets/index-n-RaPlHE.js",
       "attributes": {
         "type": "module"
       }
@@ -22,8 +22,8 @@
       "name": "template.mangal61",
       "type": "preset",
       "dependencies": [
-        "template.mangal61.css.index-Cxudxpiv.css#style",
-        "template.mangal61.js.index-DfqAK-Ey.js#script"
+        "template.mangal61.css.index-CyCmMMsp.css#style",
+        "template.mangal61.js.index-n-RaPlHE.js#script"
       ]
     }
   ]
